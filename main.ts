@@ -1,9 +1,10 @@
 let Message = ""
 input.onButtonPressed(Button.A, function () {
     radio.setGroup(1)
-    radio.sendString("T357")
+    radio.sendString("Ok")
 })
 radio.onReceivedString(function (receivedString) {
+    music.playTone(988, music.beat(BeatFraction.Whole))
     Message = receivedString
     basic.showString(Message)
 })
