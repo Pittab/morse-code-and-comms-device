@@ -1,4 +1,3 @@
-let Message = ""
 input.onButtonPressed(Button.A, function () {
     radio.setGroup(1)
     radio.sendString("Ok")
@@ -28,3 +27,5 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     music.playMelody("A - A - A - - - ", 179)
     music.playMelody("A - A - A - - - ", 605)
 })
+let Message = ""
+radio.setGroup(1)
