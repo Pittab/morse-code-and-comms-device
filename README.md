@@ -20,6 +20,13 @@ To edit this repository in MakeCode.
 
 ## Blocks preview
 
+Basic instructions:
+Button A sends the message "Ok"
+Button B sends the message "nearby" (despite being a short range comms device, nearby could be used to say "I can see you from where I am")
+The microbit logo sends "SOS" and so you're sure it's been sent, SOS in morse code will play
+When shaken, the device will repeatedly send "SOS" and play SOS in morse code so you can be located by sound once your friends/family etc are near enough
+The microbit will make a long high pitched beep when a message arrives
+
 This image shows the blocks code from the last commit in master.
 This image may take a few minutes to refresh.
 
