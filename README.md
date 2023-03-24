@@ -1,26 +1,20 @@
 
 > Open this page at [https://pittab.github.io/morse-code-and-comms-device/](https://pittab.github.io/morse-code-and-comms-device/)
 
-## Use as Extension
+##Installation
 
-This repository can be added as an **extension** in MakeCode.
+1. Import the latest release into makecode, using the method in the below box or do the same thing, but click "import file" and download the .hex of the latest release. click "choose file" and find the .hex file, it will create a new project
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/pittab/morse-code-and-comms-device** and import
+2. Change the messages the device sends. It should say (user): "message". change the part saying (user) to your name.
 
-## Edit this project ![Build status badge](https://github.com/pittab/morse-code-and-comms-device/workflows/MakeCode/badge.svg)
+2.5 (not required) If you want, change the messages sent
 
-To edit this repository in MakeCode.
+3. Download the Hex file, put on your microbit a ask your friends if they want to buy a microbit and use it! 
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/pittab/morse-code-and-comms-device** and click import
+Disclaimer: only designed for short communication between 2 people and for across school/workplace communication with multiple people in the area to daisy chain messages around
 
-## Blocks preview
 
-Basic instructions:
+Basic instructions (once it is set up):
 
 Button A sends the message "Ok".
 
@@ -31,6 +25,33 @@ The microbit logo sends "SOS" and so you're sure it's been sent, SOS in morse co
 When shaken, the device will repeatedly send "SOS" and play SOS in morse code so you can be located by sound once your friends/family etc are near enough (useful if you fall and can't send SOS).
 
 The microbit will make a long high pitched beep when a message arrives.
+
+
+##To edit this repository in MakeCode.
+
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **Import** then click on **Import URL**
+* paste **https://github.com/pittab/morse-code-and-comms-device** and click import
+
+
+## Use as Extension
+
+This repository should (for some features to work) be added as an **extension** in MakeCode.
+
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **New Project**
+* click on **Extensions** under the gearwheel menu
+* search for **https://github.com/pittab/morse-code-and-comms-device** and import
+
+## Edit this project 
+(https://github.com/pittab/morse-code-and-comms-device/workflows/MakeCode/badge.svg)
+
+
+
+
+
+
+## Blocks preview
 
 This image shows the blocks code from the last commit in master.
 This image may take a few minutes to refresh.
