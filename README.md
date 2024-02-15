@@ -3,6 +3,8 @@
 
 
 whoops. looks like I'm not updating this anymore, at least for now ;)
+
+
 Installation
 
 1. Import the latest release into makecode, using the method in the below box or do the same thing, but click "import file" and download the .hex of the latest release. click "choose file" and find the .hex file, it will create a new project
